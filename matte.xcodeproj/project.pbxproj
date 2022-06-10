@@ -13,6 +13,8 @@
 		1F71BF462853B1BB00739D78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71BF342853B1B700739D78 /* ContentView.swift */; };
 		1F71BF472853B1BB00739D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F71BF352853B1BB00739D78 /* Assets.xcassets */; };
 		1F71BF482853B1BB00739D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F71BF352853B1BB00739D78 /* Assets.xcassets */; };
+		1F71BF522853B24B00739D78 /* PillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71BF512853B24B00739D78 /* PillButton.swift */; };
+		1F71BF532853B24B00739D78 /* PillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71BF512853B24B00739D78 /* PillButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		1F71BF3A2853B1BB00739D78 /* matte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F71BF402853B1BB00739D78 /* matte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F71BF422853B1BB00739D78 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1F71BF512853B24B00739D78 /* PillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				1F71BF332853B1B700739D78 /* matteApp.swift */,
 				1F71BF342853B1B700739D78 /* ContentView.swift */,
 				1F71BF352853B1BB00739D78 /* Assets.xcassets */,
+				1F71BF512853B24B00739D78 /* PillButton.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F71BF452853B1BB00739D78 /* ContentView.swift in Sources */,
+				1F71BF522853B24B00739D78 /* PillButton.swift in Sources */,
 				1F71BF432853B1BB00739D78 /* matteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F71BF462853B1BB00739D78 /* ContentView.swift in Sources */,
+				1F71BF532853B24B00739D78 /* PillButton.swift in Sources */,
 				1F71BF442853B1BB00739D78 /* matteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
