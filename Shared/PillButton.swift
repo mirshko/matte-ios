@@ -14,6 +14,7 @@ struct PillButton: View {
     var body: some View {
         Button(action: onClick) {
             Text(text)
+                .fontWeight(.semibold)
                 .foregroundColor(.black)
                 .padding(.horizontal, 22)
                 .padding(.vertical, 10)
