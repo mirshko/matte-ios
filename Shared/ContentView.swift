@@ -52,7 +52,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                    .padding([.horizontal, .bottom])
+                .padding([.horizontal, .bottom])
                 .onChange(of: inputImage) { _ in loadImage() }
                 .sheet(isPresented: $showingImagePicker) {
                     ImagePicker(image: $inputImage)
