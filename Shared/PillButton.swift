@@ -35,7 +35,7 @@ struct PillButton_Previews: PreviewProvider {
             PillButton(text: "Print Hello", onClick: { print("Hello") })
                 .previewLayout(PreviewLayout.sizeThatFits)
                 .padding()
-                .background(.purple)
+                .background(Color("BrandColor"))
         }
     }
 }
